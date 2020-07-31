@@ -15,7 +15,7 @@ class test(db.Model):
     def __repr__(self):
         return'<Task %r>' % self.id
 
-@app.route('/')
+@app.route('/home')
 def index():
     return render_template('form.html')
 
