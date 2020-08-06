@@ -1,0 +1,108 @@
+body{
+    background-image: url(238685.jpg);
+    color: wheat;
+    margin: 20px;
+    
+    
+}
+
+
+
+nav {
+    column-count: 2;
+    column-rule-style: solid;
+    column-rule-color: gray;
+    column-gap: 2em;
+    width: 100%;
+    height: 80px; 
+    background-color: gray;
+}
+ nav p{
+     font-family: arial;
+     color:#222;
+     font-size: 32px;
+    line-height: 55px;
+    float:left;
+    padding:0px 20px;
+    font-style: normal;
+ }
+ nav ul{
+     float: left;
+     color: black;
+     font-style: bold;
+ }
+ nav ul li{
+     float: left;
+     list-style: none;
+     position: relative;
+ }
+ nav ul li a{
+     display: block;
+     text-decoration: none;
+    font-family: arial;
+    color:#222;
+    font-size: 14px;
+   float:left;
+   padding: 20px 14px;
+ }
+ nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: honeydew;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+nav ul li:hover ul{
+    display: block;
+}
+nav ul li ul li{
+    width: 180px;
+    border-radius: 4px;
+
+   
+}
+nav ul li ul li a:hover{
+    background: wheat;
+}
+nav ul li ul li a{
+    padding: 12px 14px;
+}
+nav .login{
+    float: left;
+}
+
+.login {
+    text-decoration: none;
+   font-family: arial;
+   color:white;
+   text-align-last: left;
+   font-size: 14px;
+  float:left;
+  padding: 22px 14px;
+ }
+.login form{ 
+    color:cyan;
+    font-size: 24px;
+    width: 100px; 
+    margin: 20px auto 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.login form button{
+    background-color: lightskyblue;
+    text-align-last: center;
+}
+.login .nov1{
+    width: 1280px; 
+    margin: 70px auto 0;
+    flex-direction: row;
+    text-align-last: right;
+    
+    
+    
+}
+.login .nov1 a button{
+    border-radius: 8px;
+    color:red;
+}
